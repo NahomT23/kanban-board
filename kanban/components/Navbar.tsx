@@ -9,7 +9,6 @@ import {
 
 import { PiKanban } from "react-icons/pi"
 import Link from "next/link";
-import ThemeSwitcher from './ThemeSwitcher';
 import useRouteCheck from '@/hooks/useRouteCheck';
 
 
@@ -36,12 +35,12 @@ const Navbar = () => {
                        <UserButton />
                      </SignedIn>
 
-                     {!kanbanRoute && <SignedIn/> && !onBoardingRoute && (
+                     {/* {!kanbanRoute && <SignedIn/> && !onBoardingRoute && (
                       <Link href={"/myKanban"}>
                         Go To My Board &#8594;
                       </Link>
-                     ) }
-                <ThemeSwitcher/>
+                     ) } */}
+
             </div>
         </div>
     </div>
@@ -49,3 +48,5 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+

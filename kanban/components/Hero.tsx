@@ -24,7 +24,7 @@ const Hero = () => {
 
 
         <SignInButton>
-            <p  className="flex items-center bg-gray-800 text-white px-6 py-3 text-lg font-bold rounded hover:bg-gray-900">
+            <p  className="flex items-center cursor-pointer bg-gray-800 text-white px-6 py-3 text-lg font-bold rounded hover:bg-gray-900">
             Start Planning Now
             </p>
         </SignInButton>
